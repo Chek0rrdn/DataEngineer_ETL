@@ -1,0 +1,9 @@
+{
+  "project_name": "DataEngineer_ETL",
+  "project_slug": "{{ cookiecutter.project_name.lower().replace(' ', '_').replace('-', '_') }}",
+  "project_author_name": "Edgar Alberto Pérez",
+  "project_author_email": "edgarperez_97@hotmail.com",
+  "project_description": "Project created for the basic cycle of ETL in data engineering.",
+  "python_version": "3.8.10",
+  "project_version": "0.1.0"
+}
