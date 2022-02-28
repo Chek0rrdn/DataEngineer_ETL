@@ -22,7 +22,6 @@ cookiecutter https://github.com/th3edger/DataEngineer_ETL
 
 
 ## Resulting directory structure
-{{ cookiecutter.project_slug }}
 
     ├── data
     │   ├── processed      <- The final, canonical data sets for modeling.
