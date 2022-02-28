@@ -27,23 +27,24 @@ python3 pipeline.py
 
 
 ## Resulting directory structure
- {{ cookiecutter.project_slug }}
-        ├── data
-        │   ├── processed      <- The final, canonical data sets for modeling.
-        │   └── raw            <- The original, immutable data dump.
-        │
-        ├── extract            <- Folder with the necessary files files for data extraction.
-        |
-        ├── load               <- folder with the necessary files files for data upload.
-        │
-        ├── transform          <- Folder with the necessary files files for data wrangling.
-        │
-        ├── pipeline.py        <- Pipeline for successful execution.
-        │
-        │        
-        ├── requirements.txt   <- The requirements for the project execution.
-        │
-        ├── .gitignore         <- Files to ignore by `git`.
-        │
-        │
-        └── README.md          <- The top-level README for developers using this project.
+{{ cookiecutter.project_slug }}
+
+      ├── data
+      │   ├── processed      <- The final, canonical data sets for modeling.
+      │   └── raw            <- The original, immutable data dump.
+      │
+      ├── extract            <- Folder with the necessary files files for data extraction.
+      |
+      ├── load               <- folder with the necessary files files for data upload.
+      │
+      ├── transform          <- Folder with the necessary files files for data wrangling.
+      │
+      ├── pipeline.py        <- Pipeline for successful execution.
+      │
+      │        
+      ├── requirements.txt   <- The requirements for the project execution.
+      │
+      ├── .gitignore         <- Files to ignore by `git`.
+      │
+      │
+      └── README.md          <- The top-level README for developers using this project.
